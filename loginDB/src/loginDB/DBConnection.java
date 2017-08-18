@@ -8,6 +8,10 @@ public class DBConnection {
 		
 	}
 	
+	public void displayDetails( ) {
+		System.out.println( "Test Complete!" );
+	}
+	
 	public void registerDetails( int tempID, String tempUsername, String tempPassword ) {
 		String dbUrl = "jdbc:mysql://localhost:3306/user_login";
 		String user = "root";
