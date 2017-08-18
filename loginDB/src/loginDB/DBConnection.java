@@ -10,6 +10,7 @@ public class DBConnection {
 	
 	public void displayDetails( ) {
 		System.out.println( "Test Complete!" );
+		System.out.println( "Test Complete!" );
 	}
 	
 	public void registerDetails( int tempID, String tempUsername, String tempPassword ) {
